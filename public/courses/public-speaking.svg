@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hands -->
+  <path d="M150 200C180 170 220 170 250 200" stroke="#FBBF24" strokeWidth="20" strokeLinecap="round"/>
+  <path d="M120 150C160 110 240 110 280 150" stroke="#FBBF24" strokeWidth="20" strokeLinecap="round"/>
+  <!-- Stars/Sparkles -->
+  <path d="M200 100L220 120L200 140L180 120L200 100Z" fill="#FBBF24"/>
+  <path d="M150 180L170 200L150 220L130 200L150 180Z" fill="#FBBF24"/>
+  <path d="M250 180L270 200L250 220L230 200L250 180Z" fill="#FBBF24"/>
+</svg> 

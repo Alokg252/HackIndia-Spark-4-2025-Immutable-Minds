@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser Window -->
+  <rect x="100" y="100" width="200" height="200" rx="10" fill="#E5E7EB"/>
+  <!-- Chart Bars -->
+  <rect x="120" y="250" width="30" height="30" fill="#8B5CF6"/>
+  <rect x="160" y="200" width="30" height="80" fill="#8B5CF6"/>
+  <rect x="200" y="150" width="30" height="130" fill="#8B5CF6"/>
+  <rect x="240" y="180" width="30" height="100" fill="#8B5CF6"/>
+  <!-- Cursor -->
+  <path d="M180 140L200 120L220 140H180Z" fill="#4B5563"/>
+  <!-- Gear Icon -->
+  <circle cx="280" cy="120" r="10" stroke="#4B5563" strokeWidth="2"/>
+  <path d="M280 110L280 130M270 120L290 120" stroke="#4B5563" strokeWidth="2"/>
+</svg> 

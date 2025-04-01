@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Typewriter base -->
+  <rect x="100" y="200" width="200" height="100" rx="10" fill="#E5E7EB"/>
+  <!-- Typewriter paper -->
+  <path d="M150 180C150 160 250 160 250 180L250 200L150 200L150 180Z" fill="white"/>
+  <!-- Typewriter keys -->
+  <circle cx="140" cy="240" r="10" fill="#4B5563"/>
+  <circle cx="170" cy="240" r="10" fill="#4B5563"/>
+  <circle cx="200" cy="240" r="10" fill="#4B5563"/>
+  <circle cx="230" cy="240" r="10" fill="#4B5563"/>
+  <circle cx="260" cy="240" r="10" fill="#4B5563"/>
+  <!-- Hand -->
+  <path d="M280 160C300 140 320 160 300 180C280 200 260 180 280 160Z" fill="#D1D5DB"/>
+</svg> 

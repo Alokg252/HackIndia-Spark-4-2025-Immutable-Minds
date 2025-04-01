@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pencil -->
+  <path d="M150 150L250 250" stroke="#8B5CF6" strokeWidth="40" strokeLinecap="round"/>
+  <!-- Pencil Tip -->
+  <path d="M250 250L270 270" stroke="#4B5563" strokeWidth="40" strokeLinecap="round"/>
+  <!-- Stars/Decorations -->
+  <circle cx="180" cy="180" r="10" fill="#FBBF24"/>
+  <circle cx="220" cy="220" r="10" fill="#FBBF24"/>
+  <!-- Color Palette -->
+  <circle cx="300" cy="150" r="20" fill="#EF4444"/>
+  <circle cx="330" cy="180" r="20" fill="#3B82F6"/>
+  <circle cx="300" cy="210" r="20" fill="#10B981"/>
+</svg> 
