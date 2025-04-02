@@ -17,6 +17,7 @@ import { initializeDatabase } from './services/initDatabase';
 import CoursesPage from './components/CoursesPage';
 import CertificateValidation from './pages/CertificateValidation';
 import TestCertificate from './components/TestCertificate';
+import CertifyPro from './certificate-components/certifyPro';
 
 interface Course {
   id: number;
@@ -362,9 +363,9 @@ const App = () => {
               </div>
               <Link to="/degrees" className="text-gray-700 hover:text-black transition-colors">Degrees</Link>
               <Link to="/enterprise" className="text-gray-700 hover:text-black transition-colors">For business</Link>
+              <Link to="/certificate" className="text-gray-700 hover:text-black transition-colors">Certificate</Link>
             </div>
-            
-            <button className='bg-[#FF4D4D] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#ff3333] transition-colors'>Create Certificate</button>
+
             <div className="flex items-center space-x-4">
               {!isAuthenticated ? (
                 <Web3Auth onConnect={handleConnect} onDisconnect={handleDisconnect} />
@@ -385,6 +386,7 @@ const App = () => {
           <Route path="/profile" element={<Profile userAddress={userAddress} />} />
           <Route path="/my-courses" element={<MyCourses />} />
           <Route path="/certificates" element={<Certificates />} />
+          <Route path="/certificate" element={<CertifyPro />} />
           <Route path="/settings" element={<div className="p-8"><h1>Settings Page</h1></div>} />
           <Route path="/blog" element={<div className="p-8"><h1>Blog Page</h1></div>} />
           <Route path="/validate-certificate/:certificateId" element={<CertificateValidation />} />
